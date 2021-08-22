@@ -5,7 +5,9 @@
 
 ### Problem Sets
 
-1. [ ] Asymptotic complexity, recurrence relations, peak finding
+TODO: 👉🏻 [problem set GitHub page](https://sorosliu1029.github.io/MIT6.006/)
+
+1. [x] Asymptotic complexity, recurrence relations, peak finding
 2. [ ] Fractal rendering, digital circuit simulation
 3. [ ] Range queries, digital circuit layout
 4. [ ] Hash functions, Python dictionaries, matching DNA sequences
