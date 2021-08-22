@@ -16,7 +16,7 @@
 ### Lectures and Recitations
 
 #### Unit 1: Introduction
-1. [ ] Algorithmic thinking, peak finding [lecture](https://www.youtube.com/v/HtSuA80QTyo) / [recitation](https://www.youtube.com/v/P7frcB_-g4w)
+1. [x] Algorithmic thinking, peak finding [lecture](https://www.youtube.com/v/HtSuA80QTyo) / [recitation](https://www.youtube.com/v/P7frcB_-g4w)
 2. [ ] Models of computation, Python cost model, document distance [lecture](https://www.youtube.com/v/Zc54gFhdpLA) / [recitation](https://www.youtube.com/v/QFcyt8fgQMU)
 
 #### Unit 2: Sorting and Trees
