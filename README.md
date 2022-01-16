@@ -19,7 +19,7 @@ TODO: 👉🏻 [problem set GitHub page](https://sorosliu1029.github.io/MIT6.006
 
 #### Unit 1: Introduction
 1. [x] Algorithmic thinking, peak finding [lecture](https://www.youtube.com/v/HtSuA80QTyo) / [recitation](https://www.youtube.com/v/P7frcB_-g4w)
-2. [ ] Models of computation, Python cost model, document distance [lecture](https://www.youtube.com/v/Zc54gFhdpLA) / [recitation](https://www.youtube.com/v/QFcyt8fgQMU)
+2. [x] Models of computation, Python cost model, document distance [lecture](https://www.youtube.com/v/Zc54gFhdpLA) / [recitation](https://www.youtube.com/v/QFcyt8fgQMU)
 
 #### Unit 2: Sorting and Trees
 3. [ ] Insertion sort, merge sort [lecture](https://www.youtube.com/v/Kg4bqzAqRBM) / [recitation](https://www.youtube.com/v/4iXLnF3hExw)
