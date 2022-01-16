@@ -22,7 +22,7 @@ TODO: 👉🏻 [problem set GitHub page](https://sorosliu1029.github.io/MIT6.006
 2. [x] Models of computation, Python cost model, document distance [lecture](https://www.youtube.com/v/Zc54gFhdpLA) / [recitation](https://www.youtube.com/v/QFcyt8fgQMU)
 
 #### Unit 2: Sorting and Trees
-3. [ ] Insertion sort, merge sort [lecture](https://www.youtube.com/v/Kg4bqzAqRBM) / [recitation](https://www.youtube.com/v/4iXLnF3hExw)
+3. [x] Insertion sort, merge sort [lecture](https://www.youtube.com/v/Kg4bqzAqRBM) / [recitation](https://www.youtube.com/v/4iXLnF3hExw)
 4. [ ] Heaps and heap sort [lecture](https://www.youtube.com/v/B7hVxCmfPtM)
 5. [ ] Binary search trees, BST sort [lecture](https://www.youtube.com/v/9Jry5-82I68) / [recitation](https://www.youtube.com/v/r5pXu1PAUkI)
 6. [ ] AVL trees, AVL sort [lecture](https://www.youtube.com/v/FNeL18KsWPc) / [recitation](https://www.youtube.com/v/IWzYoXKaRIc)
