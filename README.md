@@ -5,7 +5,7 @@
 
 ### Problem Sets
 
-TODO: 👉🏻 [problem set GitHub page](https://sorosliu1029.github.io/MIT6.006/)
+[Problem Sets on GitHub page](https://sorosliu1029.github.io/MIT6.006/)
 
 1. [x] [Asymptotic complexity, recurrence relations, peak finding](./ps1)
 2. [ ] Fractal rendering, digital circuit simulation
