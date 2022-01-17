@@ -343,27 +343,31 @@ class Transition:
 class PriorityQueue:
     """Array-based priority queue implementation."""
     def __init__(self):
-        """Initially empty priority queue."""
-        self.queue = []
-        self.min_index = None
+        """Initially empty priority queue.
+        
+        First element is dummy
+        """
+        self.queue = [None,]
     
     def __len__(self):
         # Number of elements in the queue.
-        return len(self.queue)
+        return len(self.queue) - 1
     
     def append(self, key):
         """Inserts an element in the priority queue."""
         if key is None:
             raise ValueError('Cannot insert None in the queue')
         self.queue.append(key)
-        self.min_index = None
+        idx = len(self)
+        while idx > 1 and self.queue[idx] < self.queue[idx / 2]:
+            self.queue[idx], self.queue[idx / 2] = self.queue[idx / 2], self.queue[idx]
+            idx /= 2
     
     def min(self):
         """The smallest element in the queue."""
-        if len(self.queue) == 0:
+        if len(self) == 0:
             return None
-        self._find_min()
-        return self.queue[self.min_index]
+        return self.queue[1]
     
     def pop(self):
         """Removes the minimum element in the queue.
@@ -371,13 +375,45 @@ class PriorityQueue:
         Returns:
             The value of the removed element.
         """
-        if len(self.queue) == 0:
+        if len(self) == 0:
             return None
-        self._find_min()
-        popped_key = self.queue.pop(self.min_index)
-        self.min_index = None
+
+        # swap first element and last element
+        self.queue[len(self)], self.queue[1] = self.queue[1], self.queue[len(self)]
+        popped_key = self.queue.pop()
+        # re min-heapify
+        self._min_heapify(1)
         return popped_key
     
+    def _min_heapify(self, idx):
+        """Build minimum heap
+
+        Assume the two children of idx-node are already min-heaps
+        """
+        # leaf node
+        if 2 * idx > len(self):
+            return
+        # internal node with only one child
+        if 2 * idx == len(self):
+            if self.queue[2 * idx] < self.queue[idx]:
+                self.queue[2 * idx], self.queue[idx] = self.queue[idx], self.queue[2 * idx]
+            return
+
+        # find minimum of two children
+
+        # parent is already minimum
+        if self.queue[idx] < self.queue[2 * idx] and self.queue[idx] < self.queue[2 * idx + 1]:
+            return
+        # swap with left child
+        if self.queue[2 * idx] < self.queue[2 * idx + 1]:
+            self.queue[2 * idx], self.queue[idx] = self.queue[idx], self.queue[2 * idx]
+            self._min_heapify(2 * idx)
+        # swap with right child
+        else:
+            self.queue[2 * idx + 1], self.queue[idx] = self.queue[idx], self.queue[2 * idx + 1]
+            self._min_heapify(2 * idx + 1)
+
+    @DeprecationWarning
     def _find_min(self):
         # Computes the index of the minimum element in the queue.
         #

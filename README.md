@@ -8,7 +8,7 @@
 [Problem Sets on GitHub page](https://sorosliu1029.github.io/MIT6.006/)
 
 1. [x] [Asymptotic complexity, recurrence relations, peak finding](./ps1)
-2. [ ] Fractal rendering, digital circuit simulation
+2. [x] [Fractal rendering, digital circuit simulation](./ps2)
 3. [ ] Range queries, digital circuit layout
 4. [ ] Hash functions, Python dictionaries, matching DNA sequences
 5. [ ] The Knight's Shield, RSA public key encryption, image decryption
