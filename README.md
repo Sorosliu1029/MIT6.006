@@ -24,7 +24,7 @@
 #### Unit 2: Sorting and Trees
 3. [x] Insertion sort, merge sort [lecture](https://www.youtube.com/v/Kg4bqzAqRBM) / [recitation](https://www.youtube.com/v/4iXLnF3hExw)
 4. [x] Heaps and heap sort [lecture](https://www.youtube.com/v/B7hVxCmfPtM)
-5. [ ] Binary search trees, BST sort [lecture](https://www.youtube.com/v/9Jry5-82I68) / [recitation](https://www.youtube.com/v/r5pXu1PAUkI)
+5. [x] Binary search trees, BST sort [lecture](https://www.youtube.com/v/9Jry5-82I68) / [recitation](https://www.youtube.com/v/r5pXu1PAUkI)
 6. [ ] AVL trees, AVL sort [lecture](https://www.youtube.com/v/FNeL18KsWPc) / [recitation](https://www.youtube.com/v/IWzYoXKaRIc)
 7. [ ] Counting sort, radix sort, lower bounds for sorting and searching [lecture](https://www.youtube.com/v/Nz1KZXbghj8) / [recitation](https://www.youtube.com/v/9bkvws_vqLU)
 
