@@ -61,15 +61,9 @@ class BSTNode(object):
         if k == self.key:
             return self
         elif k < self.key:
-            if self.left is None:
-                return None
-            else:
-                return self.left.find(k)
+            return self.left and self.left.find(k)
         else:
-            if self.right is None:  
-                return None
-            else:
-                return self.right.find(k)
+            return self.right and self.right.find(k)
     
     def find_min(self):
         """Finds the node with the minimum key in the subtree rooted at this 

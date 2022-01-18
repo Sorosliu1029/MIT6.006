@@ -9,7 +9,7 @@ This directory contains implementations of different Binary Search Trees
 2. avl.py: AVL tree (balanced).
 
    Imports and extends bst.py.  Supports insert and delete while
-   maintaining balance.  Also supports ASCII art and random teting.
+   maintaining balance.  Also supports ASCII art and random testing.
 
 USAGE
 -----
