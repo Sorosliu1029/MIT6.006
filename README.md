@@ -26,7 +26,7 @@
 4. [x] Heaps and heap sort [lecture](https://www.youtube.com/v/B7hVxCmfPtM)
 5. [x] Binary search trees, BST sort [lecture](https://www.youtube.com/v/9Jry5-82I68) / [recitation](https://www.youtube.com/v/r5pXu1PAUkI)
 6. [x] AVL trees, AVL sort [lecture](https://www.youtube.com/v/FNeL18KsWPc) / [recitation](https://www.youtube.com/v/IWzYoXKaRIc)
-7. [ ] Counting sort, radix sort, lower bounds for sorting and searching [lecture](https://www.youtube.com/v/Nz1KZXbghj8) / [recitation](https://www.youtube.com/v/9bkvws_vqLU)
+7. [x] Counting sort, radix sort, lower bounds for sorting and searching [lecture](https://www.youtube.com/v/Nz1KZXbghj8) / [recitation](https://www.youtube.com/v/9bkvws_vqLU)
 
 #### Unit 3: Hashing
 8. [ ] Hashing with chaining [lecture](https://www.youtube.com/v/0M_kIqhwbFo) / [recitation](https://www.youtube.com/v/eGSXsaJ-BlY)
