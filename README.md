@@ -9,7 +9,7 @@
 
 1. [x] [Asymptotic complexity, recurrence relations, peak finding](./ps1)
 2. [x] [Fractal rendering, digital circuit simulation](./ps2)
-3. [ ] Range queries, digital circuit layout
+3. [ ] [Range queries, digital circuit layout](./ps3)
 4. [ ] Hash functions, Python dictionaries, matching DNA sequences
 5. [ ] The Knight's Shield, RSA public key encryption, image decryption
 6. [ ] Social networks, Rubik's Cube, Dijkstra
