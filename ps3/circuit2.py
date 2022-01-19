@@ -4,6 +4,7 @@ import json   # Used when TRACE=jsonp
 import os     # Used to get the TRACE environment variable
 import re     # Used when TRACE=jsonp
 import sys    # Used to smooth over the range / xrange issue.
+import avl
 
 # Python 3 doesn't have xrange, and range behaves like xrange.
 if sys.version_info >= (3,):
@@ -137,7 +138,7 @@ class WireLayer(object):
       
     return layer
 
-class RangeIndex(object):
+class ArrayRangeIndex(object):
   """Array-based range index implementation."""
   
   def __init__(self):
@@ -165,6 +166,102 @@ class RangeIndex(object):
       if first_key <= key <= last_key:
         result += 1
     return result
+
+class LcaAvlTreeRangeIndex(object):
+  """Augmented AVL tree based range index implementation
+
+  Inspired by the first problem of ps3"""
+  def __init__(self):
+    self.t = avl.AVL()
+
+  def add(self, key):
+    if key is None:
+        raise ValueError('Cannot insert nil in the index')
+    self.t.insert(key)
+
+  def remove(self, key):
+    self.t.delete(key)
+
+  def list(self, first_key, last_key):
+    lca = self._lca(first_key, last_key)
+    result = []
+    self._node_list(lca, first_key, last_key, result)
+    return result
+
+  def count(self, first_key, last_key):
+    lca = self._lca(first_key, last_key)
+    return self._node_count(lca)
+
+  def _lca(self, l, h):
+    """Lowest common ancestor"""
+    n = self.t.root
+    while n != None and (n.key < l or n.key > h):
+      n = n.left if n.key > l else n.right
+    return n
+
+  def _node_list(self, node, l, h, result):
+    if node is None:
+      return
+    if l <= node.key <= h:
+      result.append(node.key)
+    if node.key >= l:
+      self._node_list(node.left, l, h, result)
+    if node.key <= h:
+      self._node_list(node.right, l, h, result)
+
+  def _node_count(self, node, l, h):
+    if node is None:
+      return 0
+    counter = 0
+    if l <= node.key <= h:
+      counter += 1
+    if node.key >= l:
+      counter += self._node_count(node.left, l, h)
+    if node.key <= h:
+      counter += self._node_count(node.right, l, h)
+    return counter
+class NextLargerAvlTreeRangeIndex(object):
+  """Augmented AVL tree based range index implementation
+
+  Implement `list` with `next_larger` helper"""
+  def __init__(self):
+    self.t = avl.AVL()
+
+  def add(self, key):
+    if key is None:
+        raise ValueError('Cannot insert nil in the index')
+    self.t.insert(key)
+
+  def remove(self, key):
+    self.t.delete(key)
+
+  def list(self, first_key, last_key):
+    result = []
+    node = self._find_ge_node(self.t.root, first_key)
+    while node is not None and node.key <= last_key:
+      result.append(node.key)
+      node = node.next_larger()
+    return result
+
+  def count(self, first_key, last_key):
+    counter = 0
+    node = self._find_ge_node(self.t.root, first_key)
+    while node is not None and node.key <= last_key:
+      counter += 1
+      node = node.next_larger()
+    return counter
+    
+  def _find_ge_node(self, node, key):
+    if node is None:
+      return None
+    if node.key < key:
+      return self._find_ge_node(node.right, key)
+    return self._find_ge_node(node.left, key) or node
+
+class RangeIndex(NextLargerAvlTreeRangeIndex):
+  def __init__(self):
+      super(RangeIndex, self).__init__()
+      print(RangeIndex.__base__)
   
 class TracedRangeIndex(RangeIndex):
   """Augments RangeIndex to build a trace for the visualizer."""
