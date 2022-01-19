@@ -452,8 +452,13 @@ class CrossVerifier(object):
         cross_wires = []
         for kwp in self.index.list(KeyWirePairL(wire.y1),
                                    KeyWirePairH(wire.y2)):
-          if wire.intersects(kwp.wire):
-            cross_wires.append(kwp.wire)
+          """
+          KEY POINT:
+          With `remove` operation at right point of horizontal line,
+          it is **ensured** that `kwp` horizontal line is intersected with this vertical `wire`
+          """
+          # if wire.intersects(kwp.wire):
+          cross_wires.append(kwp.wire)
         if count_only:
           result += len(cross_wires)
         else:
