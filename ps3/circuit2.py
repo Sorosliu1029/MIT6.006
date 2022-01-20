@@ -258,7 +258,95 @@ class NextLargerAvlTreeRangeIndex(object):
       return self._find_ge_node(node.right, key)
     return self._find_ge_node(node.left, key) or node
 
-class RangeIndex(NextLargerAvlTreeRangeIndex):
+class UnorderedListWithinBoundsAvlTreeRangeIndex(object):
+  """Augmented AVL tree based range index implementation
+
+  Implement `list` with high and low bounds, and in-order tree traversal"""
+  def __init__(self):
+    self.t = avl.AVL()
+
+  def add(self, key):
+    if key is None:
+        raise ValueError('Cannot insert nil in the index')
+    self.t.insert(key)
+
+  def remove(self, key):
+    self.t.delete(key)
+
+  def list(self, first_key, last_key):
+    result = []
+    lca = self._lca(first_key, last_key)
+    if lca is None:
+      return result
+    result.append(lca.key)
+
+    # low bound
+    node = self._find_ge_node(lca, first_key)
+    child_node = node.left
+    # up until lca
+    while node is not lca:
+      if child_node is node.left:
+        result.append(node.key)
+        self._extend_all_keys(node.right, result)
+      child_node = node
+      node = node.parent
+    
+    # high bound
+    node = self._find_le_node(lca, last_key)
+    child_node = node.right
+    # up until lca
+    while node is not lca:
+      if child_node is node.right:
+        result.append(node.key)
+        self._extend_all_keys(node.left ,result)
+      child_node = node
+      node = node.parent
+    
+    return result
+  
+  def count(self, first_key, last_key):
+    pass
+
+  def _lca(self, l, h):
+    """Lowest common ancestor"""
+    n = self.t.root
+    while n != None and (n.key < l or n.key > h):
+      n = n.left if n.key > l else n.right
+    return n
+
+  def _find_ge_node(self, node, key):
+    if node is None:
+      return None
+    if node.key < key:
+      return self._find_ge_node(node.right, key)
+    if node.key == key:
+      return node
+    return self._find_ge_node(node.left, key) or node
+  
+  def _find_le_node(self, node, key):
+    if node is None:
+      return None
+    if node.key > key:
+      return self._find_le_node(node.left, key)
+    if node.key == key:
+      return node
+    return self._find_le_node(node.right, key) or node
+  
+  def _extend_all_keys(self, node, l):
+    """In-order traversal"""
+    if node is None:
+      return
+    l.append(node.key)
+    self._extend_all_keys(node.left, l)
+    self._extend_all_keys(node.right, l)
+
+  def find_ge_node(self, key):
+    return self._find_ge_node(self.t.root, key)
+  
+  def find_le_node(self, key):
+    return self._find_le_node(self.t.root, key)
+
+class RangeIndex(UnorderedListWithinBoundsAvlTreeRangeIndex):
   def __init__(self):
       super(RangeIndex, self).__init__()
       print(RangeIndex.__base__)

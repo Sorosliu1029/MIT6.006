@@ -10,7 +10,7 @@ class Circuit2Test(unittest.TestCase):
   def setUp(self):
     dir = os.path.dirname(__file__)
     # Obtains a list of cross-platform test file paths.
-    self._in_files = glob.glob(os.path.join(dir, 'tests', '5*.in'))
+    self._in_files = glob.glob(os.path.join(dir, 'tests', '*.in'))
     self._in_files.sort()
   
   def _cmp_lists(self, file, result_set):
@@ -55,7 +55,6 @@ class Circuit2Test(unittest.TestCase):
           if list_test:
             same = self._cmp_lists(gold_file, result)
           else:
-            print(result)
             same = self._cmp_counts(gold_file, result)
             
           if same:
