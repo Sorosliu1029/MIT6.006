@@ -1,0 +1,9 @@
+Sequence A length: 2499950
+Sequence B length: 2499950
+Bin size A: 5000
+Bin size B: 5000
+Binning matches...
+...done binning matches.
+Normalizing and plotting results...
+...done normalizing and plotting.
+python dnaseq.py data/shortpat.fa data/shortmat.fa   257.39s user 0.16s system 100% cpu 4:17.53 total

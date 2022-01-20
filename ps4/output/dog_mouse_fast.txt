@@ -1,0 +1,9 @@
+Sequence A length: 7499950
+Sequence B length: 7499950
+Bin size A: 15000
+Bin size B: 15000
+Binning matches...
+...done binning matches.
+Normalizing and plotting results...
+...done normalizing and plotting.
+python dnaseq.py data/fdog0.fa data/fmouse0.fa output/dog_mouse_fast.png  48.30s user 0.03s system 99% cpu 48.338 total

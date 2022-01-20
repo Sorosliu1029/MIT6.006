@@ -65,6 +65,8 @@ def buildComparisonImage(filename, w, h, alen, blen, matches, remapfn=lambda x:m
     abinsize = int(math.ceil(alen / float(w)))
     bbinsize = int(math.ceil(blen / float(h)))
     assert abinsize > 0 and bbinsize > 0
+    print("Bin size A: " + str(abinsize))
+    print("Bin size B: " + str(bbinsize))
     print("Binning matches...")
     for m in matches:
         #print m, (abinsize, bbinsize), (m[0]//abinsize, m[1]//bbinsize), (w, h)
