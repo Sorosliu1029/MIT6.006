@@ -9,7 +9,7 @@
 
 1. [x] [Asymptotic complexity, recurrence relations, peak finding](./ps1)
 2. [x] [Fractal rendering, digital circuit simulation](./ps2)
-3. [ ] [Range queries, digital circuit layout](./ps3)
+3. [x] [Range queries, digital circuit layout](./ps3)
 4. [ ] Hash functions, Python dictionaries, matching DNA sequences
 5. [ ] The Knight's Shield, RSA public key encryption, image decryption
 6. [ ] Social networks, Rubik's Cube, Dijkstra
@@ -29,7 +29,7 @@
 7. [x] Counting sort, radix sort, lower bounds for sorting and searching [lecture](https://www.youtube.com/v/Nz1KZXbghj8) / [recitation](https://www.youtube.com/v/9bkvws_vqLU)
 
 #### Unit 3: Hashing
-8. [ ] Hashing with chaining [lecture](https://www.youtube.com/v/0M_kIqhwbFo) / [recitation](https://www.youtube.com/v/eGSXsaJ-BlY)
+8. [x] Hashing with chaining [lecture](https://www.youtube.com/v/0M_kIqhwbFo) / [recitation](https://www.youtube.com/v/eGSXsaJ-BlY)
 9. [ ] Table doubling, Karp-Rabin [lecture](https://www.youtube.com/v/BRO7mVIFt08) / [recitation](https://www.youtube.com/v/w6nuXg0BISo) / [recitation](https://www.youtube.com/v/-DwGrJ8JxDc)
 10. [ ]	Open addressing, cryptographic hashing [lecture](https://www.youtube.com/v/rvdJDijO2Ro) / [recitation](https://www.youtube.com/v/-FElVPKykgw)
 
