@@ -1,0 +1,39 @@
+Testing correctness:
+Testing 10grid_s.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 11list_grid_s.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 1cross.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 2list_cross.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 3crosses.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 4list_crosses.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 5logo.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 6list_logo.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 7rand200.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 8list_rand200.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+Testing 9rand10000.in ......
+<class 'circuit2.LcaAvlTreeRangeIndex'>
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 151.797s
+
+OK

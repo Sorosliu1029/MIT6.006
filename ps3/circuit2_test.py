@@ -62,6 +62,7 @@ class Circuit2Test(unittest.TestCase):
           else: 
             print('Failed')
           self.assertTrue(same)
+      sys.stdout.flush()
     
 if __name__ == '__main__':
   unittest.main()
