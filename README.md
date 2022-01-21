@@ -31,28 +31,28 @@
 #### Unit 3: Hashing
 8. [x] Hashing with chaining [lecture](https://www.youtube.com/v/0M_kIqhwbFo) / [recitation](https://www.youtube.com/v/eGSXsaJ-BlY)
 9. [x] Table doubling, Karp-Rabin [lecture](https://www.youtube.com/v/BRO7mVIFt08) / [recitation](https://www.youtube.com/v/w6nuXg0BISo) / [recitation](https://www.youtube.com/v/-DwGrJ8JxDc)
-10. [ ]	Open addressing, cryptographic hashing [lecture](https://www.youtube.com/v/rvdJDijO2Ro) / [recitation](https://www.youtube.com/v/-FElVPKykgw)
+10. [x] Open addressing, cryptographic hashing [lecture](https://www.youtube.com/v/rvdJDijO2Ro) / [recitation](https://www.youtube.com/v/-FElVPKykgw)
 
 #### Unit 4: Numerics
-11. [ ]	Integer arithmetic, Karatsuba multiplication [lecture](https://www.youtube.com/v/eCaXlAaN2uE) / [recitation](https://www.youtube.com/v/a_otxyu0mSQ)
-12. [ ]	Square roots, Newton's method [lecture](https://www.youtube.com/v/2YeJ-5UAke8) / [recitation](https://www.youtube.com/v/JRgIXyEPnbA)
+11. [ ] Integer arithmetic, Karatsuba multiplication [lecture](https://www.youtube.com/v/eCaXlAaN2uE) / [recitation](https://www.youtube.com/v/a_otxyu0mSQ)
+12. [ ] Square roots, Newton's method [lecture](https://www.youtube.com/v/2YeJ-5UAke8) / [recitation](https://www.youtube.com/v/JRgIXyEPnbA)
 
 #### Unit 5: Graphs
-13. [ ]	Breadth-first search (BFS) [lecture](https://www.youtube.com/v/s-CYnVz-uh4) / [recitation](https://www.youtube.com/v/5JxShDZ_ylo)
-14. [ ]	Depth-first search (DFS), topological sorting [lecture](https://www.youtube.com/v/AfSk24UTFS8) / [recitation](https://www.youtube.com/v/C5SPsY72_CM)
+13. [ ] Breadth-first search (BFS) [lecture](https://www.youtube.com/v/s-CYnVz-uh4) / [recitation](https://www.youtube.com/v/5JxShDZ_ylo)
+14. [ ] Depth-first search (DFS), topological sorting [lecture](https://www.youtube.com/v/AfSk24UTFS8) / [recitation](https://www.youtube.com/v/C5SPsY72_CM)
 
 #### Unit 6: Shortest Paths
-15. [ ]	Single-source shortest paths problem [lecture](https://www.youtube.com/v/Aa2sqUhIn-E) / [recitation](https://www.youtube.com/v/mQSp6VmfakA)
-16. [ ]	Dijkstra [lecture](https://www.youtube.com/v/2E7MmKv0Y24) / [recitation](https://www.youtube.com/v/oRpERQA4Vik)
-17. [ ]	Bellman-Ford [lecture](https://www.youtube.com/v/ozsuci5pIso)
-18. [ ]	Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
+15. [ ] Single-source shortest paths problem [lecture](https://www.youtube.com/v/Aa2sqUhIn-E) / [recitation](https://www.youtube.com/v/mQSp6VmfakA)
+16. [ ] Dijkstra [lecture](https://www.youtube.com/v/2E7MmKv0Y24) / [recitation](https://www.youtube.com/v/oRpERQA4Vik)
+17. [ ] Bellman-Ford [lecture](https://www.youtube.com/v/ozsuci5pIso)
+18. [ ] Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
 
 #### Unit 7: Dynamic Programming
-19. [ ]	Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
-20. [ ]	Parent pointers; text justification, perfect-information blackjack [lecture](https://www.youtube.com/v/ENyox7kNKeY) / [recitation](https://www.youtube.com/v/jZbkToeNK2g)
-21. [ ]	String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack [lecture](https://www.youtube.com/v/ocZMDMZwhCY) / [recitation](https://www.youtube.com/v/wFP5VHGHFdk)
+19. [ ] Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
+20. [ ] Parent pointers; text justification, perfect-information blackjack [lecture](https://www.youtube.com/v/ENyox7kNKeY) / [recitation](https://www.youtube.com/v/jZbkToeNK2g)
+21. [ ] String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack [lecture](https://www.youtube.com/v/ocZMDMZwhCY) / [recitation](https://www.youtube.com/v/wFP5VHGHFdk)
 22. [ ] Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. [lecture](https://www.youtube.com/v/tp4_UXaVyx8) / [recitation](https://www.youtube.com/v/PptQgy89cN8)
 
 #### Unit 8: Advanced Topics
-23. [ ]	Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
-24. [ ]	Algorithms research topics [lecture](https://www.youtube.com/v/dU40AvBURDQ) / [recitation](https://www.youtube.com/v/hkAONP0aC9w)
+23. [ ] Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
+24. [ ] Algorithms research topics [lecture](https://www.youtube.com/v/dU40AvBURDQ) / [recitation](https://www.youtube.com/v/hkAONP0aC9w)
