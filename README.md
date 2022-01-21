@@ -30,7 +30,7 @@
 
 #### Unit 3: Hashing
 8. [x] Hashing with chaining [lecture](https://www.youtube.com/v/0M_kIqhwbFo) / [recitation](https://www.youtube.com/v/eGSXsaJ-BlY)
-9. [ ] Table doubling, Karp-Rabin [lecture](https://www.youtube.com/v/BRO7mVIFt08) / [recitation](https://www.youtube.com/v/w6nuXg0BISo) / [recitation](https://www.youtube.com/v/-DwGrJ8JxDc)
+9. [x] Table doubling, Karp-Rabin [lecture](https://www.youtube.com/v/BRO7mVIFt08) / [recitation](https://www.youtube.com/v/w6nuXg0BISo) / [recitation](https://www.youtube.com/v/-DwGrJ8JxDc)
 10. [ ]	Open addressing, cryptographic hashing [lecture](https://www.youtube.com/v/rvdJDijO2Ro) / [recitation](https://www.youtube.com/v/-FElVPKykgw)
 
 #### Unit 4: Numerics
