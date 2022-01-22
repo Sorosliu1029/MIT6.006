@@ -34,7 +34,7 @@
 10. [x] Open addressing, cryptographic hashing [lecture](https://www.youtube.com/v/rvdJDijO2Ro) / [recitation](https://www.youtube.com/v/-FElVPKykgw)
 
 #### Unit 4: Numerics
-11. [ ] Integer arithmetic, Karatsuba multiplication [lecture](https://www.youtube.com/v/eCaXlAaN2uE) / [recitation](https://www.youtube.com/v/a_otxyu0mSQ)
+11. [x] Integer arithmetic, Karatsuba multiplication [lecture](https://www.youtube.com/v/eCaXlAaN2uE) / [recitation](https://www.youtube.com/v/a_otxyu0mSQ)
 12. [ ] Square roots, Newton's method [lecture](https://www.youtube.com/v/2YeJ-5UAke8) / [recitation](https://www.youtube.com/v/JRgIXyEPnbA)
 
 #### Unit 5: Graphs
