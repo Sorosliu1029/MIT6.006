@@ -11,7 +11,7 @@
 2. [x] [Fractal rendering, digital circuit simulation](./ps2)
 3. [x] [Range queries, digital circuit layout](./ps3)
 4. [x] [Hash functions, Python dictionaries, matching DNA sequences](./ps4)
-5. [ ] The Knight's Shield, RSA public key encryption, image decryption
+5. [ ] [The Knight's Shield, RSA public key encryption, image decryption](./ps5)
 6. [ ] Social networks, Rubik's Cube, Dijkstra
 7. [ ] Seam carving, stock purchasing and knapsack
 
@@ -35,7 +35,7 @@
 
 #### Unit 4: Numerics
 11. [x] Integer arithmetic, Karatsuba multiplication [lecture](https://www.youtube.com/v/eCaXlAaN2uE) / [recitation](https://www.youtube.com/v/a_otxyu0mSQ)
-12. [ ] Square roots, Newton's method [lecture](https://www.youtube.com/v/2YeJ-5UAke8) / [recitation](https://www.youtube.com/v/JRgIXyEPnbA)
+12. [x] Square roots, Newton's method [lecture](https://www.youtube.com/v/2YeJ-5UAke8) / [recitation](https://www.youtube.com/v/JRgIXyEPnbA)
 
 #### Unit 5: Graphs
 13. [ ] Breadth-first search (BFS) [lecture](https://www.youtube.com/v/s-CYnVz-uh4) / [recitation](https://www.youtube.com/v/5JxShDZ_ylo)
