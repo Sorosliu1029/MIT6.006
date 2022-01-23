@@ -2,7 +2,9 @@
 
 from __future__ import division  # Use // for integer division.
 import os     # Used for os.environ.
-import sys    # Used to smooth over the range / xrange issue.
+import sys
+
+from sympy import Q, quo    # Used to smooth over the range / xrange issue.
 # Python 3 doesn't have xrange, and range behaves like xrange.
 if sys.version_info >= (3,):
     xrange = range
@@ -174,7 +176,7 @@ class BigNum(object):
   def __rshift__(self, digits):
     '''This BigNum, without the last "digits" digits.
     
-    Shifting to the left multiplies the BigNum by 256^digits.
+    Shifting to the right divides the BigNum by 256^digits.
     '''
     if digits >= len(self.d):
       return BigNum.zero()
@@ -256,7 +258,15 @@ class BigNum(object):
     '''
     Slow method for multiplying two numbers w/ good constant factors.
     '''
-    return self.fast_mul(other)
+    result = BigNum.zero(2 * max(len(self.d), len(other.d)))
+    for i in xrange(0, len(self.d)):
+      carry = Byte.zero()
+      for j in xrange(0, len(other.d)):
+        digit = self.d[i] * other.d[j] + result.d[i+j].word() + carry.word()
+        result.d[i+j] = digit.lsb()
+        carry = digit.msb()
+      result.d[i+len(other.d)] = carry
+    return result.normalize()
 
   def fast_mul(self, other):
     '''
@@ -315,7 +325,27 @@ class BigNum(object):
     '''
     Slow method for dividing two numbers w/ good constant factors.
     '''
-    return self.fast_divmod(other)
+    n = max(len(self.d), len(other.d))
+    quotient = BigNum.zero(n)
+    remainder = BigNum(self.d, n)
+    i = 0
+    s = [BigNum(other.d, n)]
+
+    i += 1
+    s.append(s[-1] + s[-1])
+    while (len(s[-1].d) <= n or s[-1].d[n] <= Byte.zero()) \
+      and s[-1] <= self:
+      i += 1
+      s.append(s[-1] + s[-1])
+
+    for j in xrange(i-1, -1, -1):
+      quotient += quotient
+      if remainder >= s[j]:
+        remainder -= s[j]
+        quotient.d[0] |= Byte.one()
+
+    return (quotient, remainder)
+
 
   def fast_divmod(self, other):
     '''
