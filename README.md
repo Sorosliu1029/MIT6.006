@@ -12,7 +12,7 @@
 3. [x] [Range queries, digital circuit layout](./ps3)
 4. [x] [Hash functions, Python dictionaries, matching DNA sequences](./ps4)
 5. [x] [The Knight's Shield, RSA public key encryption, image decryption](./ps5)
-6. [ ] Social networks, Rubik's Cube, Dijkstra
+6. [ ] [Social networks, Rubik's Cube, Dijkstra](./ps6)
 7. [ ] Seam carving, stock purchasing and knapsack
 
 ### Lectures and Recitations
