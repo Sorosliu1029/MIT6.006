@@ -2,4 +2,5 @@ Testing correctness:
 Testing 1verdict_32.in ...... OK
 Testing 2logo_32.in ...... OK
 Testing 3verdict_128.in ...... OK
-Testing 4verdict_512.in ...... 
+Testing 4verdict_512.in ...... OK
+Testing 5future_1024.in ...... 

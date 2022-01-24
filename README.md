@@ -39,7 +39,7 @@
 
 #### Unit 5: Graphs
 13. [x] Breadth-first search (BFS) [lecture](https://www.youtube.com/v/s-CYnVz-uh4) / [recitation](https://www.youtube.com/v/5JxShDZ_ylo)
-14. [ ] Depth-first search (DFS), topological sorting [lecture](https://www.youtube.com/v/AfSk24UTFS8) / [recitation](https://www.youtube.com/v/C5SPsY72_CM)
+14. [x] Depth-first search (DFS), topological sorting [lecture](https://www.youtube.com/v/AfSk24UTFS8) / [recitation](https://www.youtube.com/v/C5SPsY72_CM)
 
 #### Unit 6: Shortest Paths
 15. [ ] Single-source shortest paths problem [lecture](https://www.youtube.com/v/Aa2sqUhIn-E) / [recitation](https://www.youtube.com/v/mQSp6VmfakA)
