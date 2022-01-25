@@ -43,7 +43,7 @@
 
 #### Unit 6: Shortest Paths
 15. [x] Single-source shortest paths problem [lecture](https://www.youtube.com/v/Aa2sqUhIn-E) / [recitation](https://www.youtube.com/v/mQSp6VmfakA)
-16. [ ] Dijkstra [lecture](https://www.youtube.com/v/2E7MmKv0Y24) / [recitation](https://www.youtube.com/v/oRpERQA4Vik)
+16. [x] Dijkstra [lecture](https://www.youtube.com/v/2E7MmKv0Y24) / [recitation](https://www.youtube.com/v/oRpERQA4Vik)
 17. [ ] Bellman-Ford [lecture](https://www.youtube.com/v/ozsuci5pIso)
 18. [ ] Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
 
