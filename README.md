@@ -45,7 +45,7 @@
 15. [x] Single-source shortest paths problem [lecture](https://www.youtube.com/v/Aa2sqUhIn-E) / [recitation](https://www.youtube.com/v/mQSp6VmfakA)
 16. [x] Dijkstra [lecture](https://www.youtube.com/v/2E7MmKv0Y24) / [recitation](https://www.youtube.com/v/oRpERQA4Vik)
 17. [x] Bellman-Ford [lecture](https://www.youtube.com/v/ozsuci5pIso)
-18. [ ] Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
+18. [x] Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
 
 #### Unit 7: Dynamic Programming
 19. [ ] Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
