@@ -2,9 +2,7 @@
 
 from __future__ import division  # Use // for integer division.
 import os     # Used for os.environ.
-import sys
-
-from sympy import Q, quo    # Used to smooth over the range / xrange issue.
+import sys    # Used to smooth over the range / xrange issue.
 # Python 3 doesn't have xrange, and range behaves like xrange.
 if sys.version_info >= (3,):
     xrange = range
