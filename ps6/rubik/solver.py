@@ -16,7 +16,7 @@ def shortest_path(start, end):
     parent_b = dict()
 
     # diameter: 14
-    for i in range(16):  # go two more levels
+    for i in range(15):  # go two more levels
         intersection = check_intersection(
             current_f, current_b, parent_f, parent_b, start, end)
         if intersection is not None:
