@@ -163,12 +163,12 @@ class PathFinder(object):
         Returns:
             PathResult for the shortest path or None if path is empty.
         """
-        start_time = time.clock()
+        start_time = time.time()
         
         path, num_visited = self.dijkstra(weight, self.network.nodes, 
                                           self.source, self.destination)
-            
-        time_used = round(time.clock() - start_time, 3)
+
+        time_used = round(time.time() - start_time, 3)
         if path:
             if self.network.verify_path(path, self.source, self.destination):
                 return PathResult(path, num_visited, weight, self.network, 
@@ -195,8 +195,39 @@ class PathFinder(object):
             A tuple: (the path as a list of nodes from source to destination, 
                       the number of visited nodes)
         """
-        return NotImplemented 
-        
+        # initialize
+        q = PriorityQueue()
+        for n in nodes:
+            n.pair = NodeDistancePair(n, inf)
+            q.insert(n.pair)
+        source.pair.distance = 0
+        q.decrease_key(source.pair)
+
+        visited_node = 0
+        while len(q):
+            cur = q.extract_min()
+            visited_node += 1
+
+            # early return
+            if id(cur.node) == id(destination):
+                break
+
+            for adj in cur.node.adj:
+                # relaxation
+                if adj.pair.distance > cur.distance + weight(cur.node, adj):
+                    adj.pair.distance = cur.distance + weight(cur.node, adj)
+                    q.decrease_key(adj.pair)
+                    adj.prev = cur.node
+
+        # construct path
+        n = destination
+        path = [destination]
+        while id(n) != id(source):
+            path.append(n.prev)
+            n = n.prev
+
+        return list(reversed(path)), visited_node
+
     @staticmethod
     def from_file(file, network):
         """Creates a PathFinder object with source and destination read from 
@@ -331,5 +362,5 @@ if __name__ == '__main__':
             else:
                 r.to_file(sys.stdout)
         else:
-            print 'No path is found.'
+            print('No path is found.')
     

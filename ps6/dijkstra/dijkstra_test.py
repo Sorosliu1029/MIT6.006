@@ -55,4 +55,4 @@ class DijkstraTest(unittest.TestCase):
                     self.assertTrue(same)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(failfast=True)
