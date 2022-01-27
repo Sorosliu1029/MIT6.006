@@ -1,0 +1,19 @@
+testShortestPath0 (__main__.TestSolver)
+Length 0 path. ... ok
+testShortestPath1 (__main__.TestSolver)
+Length 1 path. ... ok
+testShortestPath2 (__main__.TestSolver)
+Length 2 path. ... ok
+testShortestPath3 (__main__.TestSolver)
+Length 3 path. ... ok
+testShortestPath4 (__main__.TestSolver)
+Length 4 path. ... ok
+testshortestPath14 (__main__.TestSolver)
+Length 14 path. ... ok
+testshortestPathBad (__main__.TestSolver)
+No solution. ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.503s
+
+OK

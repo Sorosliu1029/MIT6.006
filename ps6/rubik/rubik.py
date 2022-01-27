@@ -4,6 +4,10 @@
 # Last updated: October 24, 2008
 #
 # Routines to work with Rubik's 2x2x2 cube
+import sys
+if sys.version_info >= (3,):
+    xrange = range
+    raw_input = input
 
 """
 We'll call the six sides, as usual:
@@ -125,7 +129,16 @@ def perm_to_string(p):
 ### Make standard permutations of faces
 ###################################################
 # Identity: equal to (0, 1, 2, ..., 23).
-I = (flu, luf, ufl, fur, urf, rfu, fdl, dlf, lfd, frd, rdf, dfr,     bul, ulb, lbu, bru, rub, ubr, bld, ldb, dbl, bdr, drb, rbd)
+I = (
+    flu, luf, ufl,
+    fur, urf, rfu,
+    fdl, dlf, lfd,
+    frd, rdf, dfr,
+    bul, ulb, lbu,
+    bru, rub, ubr,
+    bld, ldb, dbl,
+    bdr, drb, rbd
+)
 
 """
 When any of the following Rubik's cube permutations are applied, the
@@ -221,7 +234,7 @@ def input_configuration():
     position[18] = eval(cubie)
     position[19] = eval(cubie[1:] + cubie[0])
     position[20] = eval(cubie[2] + cubie[:2])
-    print """We already know cubie #7, so we're done."""
+    print("""We already know cubie #7, so we're done.""")
     cubie = 'oyb'
     position[21] = eval(cubie)
     position[22] = eval(cubie[1:] + cubie[0])

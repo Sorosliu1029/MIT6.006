@@ -2,7 +2,6 @@
 import unittest
 import solver
 import rubik
-import sys
 
 class TestSolver(unittest.TestCase):
     def testShortestPath0(self):
@@ -73,4 +72,4 @@ class TestSolver(unittest.TestCase):
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestSolver)
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    unittest.TextTestRunner(verbosity=2, failfast=True).run(suite)
