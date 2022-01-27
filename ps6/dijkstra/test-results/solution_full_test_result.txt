@@ -1,0 +1,16 @@
+Testing correctness:
+Testing 0boston_berkeley.in ...... OK
+Testing 1pasadena_cambridge.in ...... OK
+Testing 2portland_me_sf.in ...... OK
+Testing 3pasadena_bellevue.in ...... OK
+Testing 4newhaven_cambridge.in ...... OK
+Testing 5chicago_portland_me.in ...... OK
+Testing 6bellevue_cambridge.in ...... OK
+Testing 7portland_or_boston.in ...... OK
+Testing 8seattle_miami.in ...... OK
+Testing 9la_portland_me.in ...... .
+----------------------------------------------------------------------
+Ran 1 test in 19.778s
+
+OK
+OK
