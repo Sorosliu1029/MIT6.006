@@ -1,6 +1,10 @@
 # MIT6.006
 🧠 Introduction to Algorithms
 
+👁️ THIS REPO IS BASED ON [FALL 2011](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) VERSION, 
+THERE IS A NEW [SPRING 2020](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/) VERSION, 
+DEFINITELY CHECK IT OUT!
+
 ## progress
 
 ### Problem Sets
@@ -51,7 +55,7 @@
 19. [x] Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
 20. [x] Parent pointers; text justification, perfect-information blackjack [lecture](https://www.youtube.com/v/ENyox7kNKeY) / [recitation](https://www.youtube.com/v/jZbkToeNK2g)
 21. [x] String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack [lecture](https://www.youtube.com/v/ocZMDMZwhCY) / [recitation](https://www.youtube.com/v/wFP5VHGHFdk)
-22. [ ] Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. [lecture](https://www.youtube.com/v/tp4_UXaVyx8) / [recitation](https://www.youtube.com/v/PptQgy89cN8)
+22. [x] Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. [lecture](https://www.youtube.com/v/tp4_UXaVyx8) / [recitation](https://www.youtube.com/v/PptQgy89cN8)
 
 #### Unit 8: Advanced Topics
 23. [ ] Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
