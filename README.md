@@ -13,7 +13,7 @@
 4. [x] [Hash functions, Python dictionaries, matching DNA sequences](./ps4)
 5. [x] [The Knight's Shield, RSA public key encryption, image decryption](./ps5)
 6. [x] [Social networks, Rubik's Cube, Dijkstra](./ps6)
-7. [ ] Seam carving, stock purchasing and knapsack
+7. [ ] [Seam carving, stock purchasing and knapsack](./ps7)
 
 ### Lectures and Recitations
 
@@ -48,7 +48,7 @@
 18. [x] Speeding up Dijkstra [lecture](https://www.youtube.com/v/CHvQ3q_gJ7E) / [recitation](https://www.youtube.com/v/sPuazUPiV1k)
 
 #### Unit 7: Dynamic Programming
-19. [ ] Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
+19. [x] Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths [lecture](https://www.youtube.com/v/OQ5jsbhAv_M) / [recitation](https://www.youtube.com/v/IFrvgSvZA0I)
 20. [ ] Parent pointers; text justification, perfect-information blackjack [lecture](https://www.youtube.com/v/ENyox7kNKeY) / [recitation](https://www.youtube.com/v/jZbkToeNK2g)
 21. [ ] String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack [lecture](https://www.youtube.com/v/ocZMDMZwhCY) / [recitation](https://www.youtube.com/v/wFP5VHGHFdk)
 22. [ ] Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. [lecture](https://www.youtube.com/v/tp4_UXaVyx8) / [recitation](https://www.youtube.com/v/PptQgy89cN8)
