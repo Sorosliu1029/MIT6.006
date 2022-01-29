@@ -17,7 +17,7 @@ DEFINITELY CHECK IT OUT!
 4. [x] [Hash functions, Python dictionaries, matching DNA sequences](./ps4)
 5. [x] [The Knight's Shield, RSA public key encryption, image decryption](./ps5)
 6. [x] [Social networks, Rubik's Cube, Dijkstra](./ps6)
-7. [ ] [Seam carving, stock purchasing and knapsack](./ps7)
+7. [x] [Seam carving, stock purchasing and knapsack](./ps7)
 
 ### Lectures and Recitations
 
