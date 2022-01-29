@@ -59,4 +59,4 @@ DEFINITELY CHECK IT OUT!
 
 #### Unit 8: Advanced Topics
 23. [x] Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
-24. [ ] Algorithms research topics [lecture](https://www.youtube.com/v/dU40AvBURDQ) / [recitation](https://www.youtube.com/v/hkAONP0aC9w)
+24. [x] Algorithms research topics [lecture](https://www.youtube.com/v/dU40AvBURDQ) / [recitation](https://www.youtube.com/v/hkAONP0aC9w)
