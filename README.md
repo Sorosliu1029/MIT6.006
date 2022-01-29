@@ -58,5 +58,5 @@ DEFINITELY CHECK IT OUT!
 22. [x] Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. [lecture](https://www.youtube.com/v/tp4_UXaVyx8) / [recitation](https://www.youtube.com/v/PptQgy89cN8)
 
 #### Unit 8: Advanced Topics
-23. [ ] Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
+23. [x] Computational complexity [lecture](https://www.youtube.com/v/moPtwq_cVH8) / [recitation](https://www.youtube.com/v/t5Wxk96QjUk)
 24. [ ] Algorithms research topics [lecture](https://www.youtube.com/v/dU40AvBURDQ) / [recitation](https://www.youtube.com/v/hkAONP0aC9w)
