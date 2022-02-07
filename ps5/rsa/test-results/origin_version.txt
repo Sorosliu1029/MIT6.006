@@ -3,4 +3,9 @@ Testing 1verdict_32.in ...... OK
 Testing 2logo_32.in ...... OK
 Testing 3verdict_128.in ...... OK
 Testing 4verdict_512.in ...... OK
-Testing 5future_1024.in ...... 
+Testing 5future_1024.in ...... .
+----------------------------------------------------------------------
+Ran 1 test in 1233182.331s
+
+OK
+OK
